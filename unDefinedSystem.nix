@@ -4,6 +4,6 @@ cmd = "uname -m";
 };
 getPlat = {
 
-cmd = "uname -";
+cmd = "uname -s";
 
 };

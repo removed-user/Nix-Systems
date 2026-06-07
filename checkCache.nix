@@ -16,7 +16,7 @@ let
       in
         # Fallback to computing the string using the remote flake's matrix block
         # Nix detects the active host string and selects the target element automatically
-        seederFlake.packages.${builtins.currentSystem}.default.system; 
+        seederFlake.packages.default; 
 in
 {
   # 'getSystemString' will now evaluate to a pure architecture primitive 
